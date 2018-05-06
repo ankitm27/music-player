@@ -18,5 +18,5 @@ Create ssl certificate and put into bin folder with the same name which is used 
 
 Run the server npm start
 
-Put url in browser https://127.0.0.1:3006/rtc and enjoy(please put https server only runs on https not http)
+Put url in browser https://127.0.0.1:3006/rtc and enjoy(please put https in request, server only runs on https not http)
 
