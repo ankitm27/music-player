@@ -1,0 +1,36 @@
+{
+  "name": "webrtc",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "build": "browserify controllers/check.js -o routes/bundle.js -t [ babelify --presets [ es2015 react ] ]"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "body-parser": "~1.18.2",
+    "bootstrap": "^3.3.7",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.4",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "jquery": "^3.3.1",
+    "morgan": "~1.9.0",
+    "popper.js": "^1.12.9",
+    "pug": "2.0.0-beta11",
+    "react": "^16.2.0",
+    "serve-favicon": "~2.4.5",
+    "simple-peer": "^9.0.0",
+    "underscore": "^1.9.0",
+    "wrtc": "0.0.67",
+    "ws": "^4.1.0",
+    "wss": "^3.0.2",
+    "wtc": "^1.0.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babelify": "^8.0.0"
+  }
+}

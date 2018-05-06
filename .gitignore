@@ -1,0 +1,5 @@
+.idea/
+bin/fullchain.pem
+bin/privkey.pem
+node_modules/
+package-lock.json

@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <title>Music Player</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+
+<style>
+    body {
+        background: #eee;
+        padding: 5% 0;
+    }
+</style>
+
+<body>
+
+<div id="callPage" class="container text-center">
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+            <h2>Local audio</h2>
+            <audio id="localAudio" controls autoplay></audio>
+            <br>
+            <br>
+
+            <h2>Remote audio</h2>
+            <audio id="remoteAudio" controls autoplay></audio>
+            <br>
+            <br>
+
+            <h2>Copy link and send to your friend to enjoy music player</h2>
+            <input type="text" class="form-control input-lg" id="roomId" readonly>
+            <br>
+            <button id="copyBtn" class="btn btn-lg btn-primary btn">
+                Copy Link
+            </button>
+        </div>
+    </div>
+    <br>
+    <br>
+    <button id="newRoom" class="btn btn-lg btn-primary btn">New Room</button>
+    <br>
+    <br>
+
+    <p><strong>Note:</strong> The audio tag is not supported in Internet Explorer 8 and earlier versions.</p>
+</div>
+
+
+<script src="room.js"></script>
+
+</body>
+
+</html>
